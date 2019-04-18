@@ -1,4 +1,4 @@
-apply plugin: 'com.android.application'
+apply plugin: 'com.android.library'
 
 apply plugin: 'kotlin-android'
 
@@ -10,7 +10,6 @@ group='com.github.MikolaAstanivka'
 android {
     compileSdkVersion 28
     defaultConfig {
-        applicationId "com.darkos.samplelib"
         minSdkVersion 21
         targetSdkVersion 28
         versionCode 1
